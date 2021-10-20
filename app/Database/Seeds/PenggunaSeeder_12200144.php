@@ -11,7 +11,7 @@ class PenggunaSeeder_12200144 extends Seeder
     {
         $data = [
             [
-                'nama'      => 'Tio Fajli',
+                'nama'      => 'TioFajli',
                 'password'  => md5('12200144')
             ],
             [

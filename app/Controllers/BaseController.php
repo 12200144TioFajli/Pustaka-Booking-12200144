@@ -39,10 +39,11 @@ class BaseController extends Controller
     protected $helpers = [];
 
     /**
+     * 
      * @var Session
      */
     protected $session;
-
+    
     /**
      * Constructor.
      */
