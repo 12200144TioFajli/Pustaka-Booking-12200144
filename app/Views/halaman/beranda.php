@@ -1,6 +1,6 @@
-<?=$this->extend('dasar_tampilan')?>
+<?=$this->extend('template_dashboard')?>
 
-<?=$this->section('WebProgramming')?>
+<?=$this->section('konten')?>
 
     <div class="container">
         <div class="card">
