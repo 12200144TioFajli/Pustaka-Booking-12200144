@@ -44,7 +44,7 @@ $vd = $vd ?: Services::validation();
                         <div>
                             <label for='txtpassword' class="form-label">Kata Sandi</label>
                             <input id='txtpassword' type="password" name="password" value="" class="form-control" />
-             _-           <?php
+                        <?php
                             if( $vd->getError('password') ){?>
                                 <div class="alert alert-danger">
                                     <?=$vd->getError('password')?>
